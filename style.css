@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+  /* background-color: #a2d2ff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.joke {
+  width: 100%;
+  max-width: 700px;
+  min-width: 300px;
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #bbb;
+}
+.joke__btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  background-color: #3a86ff;
+  color: #fff;
+  border-radius: 4px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.joke__btn:active {
+  transform: scale(0.98);
+}
